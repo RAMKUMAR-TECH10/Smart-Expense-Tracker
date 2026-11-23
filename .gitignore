@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local financial data and generated output
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
+logs/*.log
+reports/*
+!reports/.gitkeep
+assets/icons/*
+!assets/icons/.gitkeep
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
